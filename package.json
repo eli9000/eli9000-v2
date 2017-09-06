@@ -1,0 +1,24 @@
+{
+  "name": "eli9000-v2",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-bootstrap": "^0.31.2",
+    "react-dom": "^15.6.1",
+    "react-scripts": "1.0.13"
+  },
+  "scripts": {
+    "start": "npm-run-all -p start:server start:client watch:css",
+    "start:client": "react-scripts start",
+    "start:server": "nodemon server --watch server --exec babel-node",
+    "build": "npm run build:css && react-scripts build",
+    "build:css": "node-sass-chokidar src -o src",
+    "watch:css": "npm run build:css && node-sass-chokidar src -o src --watch --recursive"
+  },
+  "devDependencies": {
+    "node-sass-chokidar": "0.0.3",
+    "nodemon": "^1.12.0",
+    "npm-run-all": "^4.1.1"
+  }
+}
