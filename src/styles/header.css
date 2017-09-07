@@ -25,11 +25,3 @@
       border-left: 0; }
     .Header .container .ul-icons .nav-item .nav-link:hover {
       color: white; }
-
-.Jumbo .jumbotron {
-  background-color: #eceeef;
-  background-image: url("/images/me_thug.png");
-  background-repeat: no-repeat;
-  background-position: right bottom;
-  background-size: contain, 50%;
-  background-clip: padding-box; }

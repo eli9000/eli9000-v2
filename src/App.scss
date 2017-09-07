@@ -1,8 +1,5 @@
-.navbar {
-  margin-bottom: 0;
-  box-shadow: 5px 5px 5px gray;
-}
+@import './styles/_variables.scss';
+@import './styles/header.scss';
+@import './styles/jumbo.scss';
+@import './styles/content.scss';
 
-.navbar-inverse {
-  background-color: purple;
-}

@@ -1,0 +1,54 @@
+.Header {
+
+  .container {
+    background-color: rgba(72, 73, 74 , 1) !important;
+    box-shadow: 6px 6px 6px #4DF88A;
+    z-index: 999;
+
+    .bg-inverse {
+      background-color:rgb(72, 73, 74) !important;
+
+      .navbar-brand {
+        // font-size: 24px;
+      }
+    }
+
+    .nav-item {
+      .nav-link {
+        color: rgba(69, 152, 237, 0.84);
+        border-left: 2px solid rgba(69, 152, 237, 0.84);
+        text-shadow: 3px 3px black;
+      }
+      .nav-link:hover {
+        color: white;
+
+      }
+      .dropdown-menu {
+        background-color: white;
+        .dropdown-item:hover {
+          border-left: 7px solid rgba(69, 152, 237, 0.84);
+          background: rgba(221, 221, 221, 0.83);
+
+          .fa {
+            color: red;
+          }
+        }
+      }
+    }
+
+    .ul-icons {
+      margin-left: auto;
+
+      .nav-item {
+        .nav-link {
+          color: #4DF88A;
+          text-shadow: 3px 3px black;
+          border-left: 0;
+        }
+        .nav-link:hover {
+          color: white;
+        }
+      }
+    }
+  }
+}
