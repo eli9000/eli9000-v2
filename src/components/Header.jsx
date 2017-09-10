@@ -13,23 +13,23 @@ class Header extends Component {
             <div className="collapse navbar-collapse" id="navbarNavDropdown">
               <ul className="navbar-nav">
                 <li className="nav-item">
-                  <a className="nav-link" href="#">ABOUT ME</a>
+                  <a className="nav-link" href="#">About Me</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">PROJECTS</a>
+                  <a className="nav-link" href="#">Projects</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">CONTACTS</a>
+                  <a className="nav-link" href="#">Contact</a>
                 </li>
                 <li className="nav-item dropdown">
-                  <a className="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    MY RESUME</a>
+                  <a className="nav-link dropdown-toggle" href="http://eli9000.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Resume</a>
                   <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a className="dropdown-item" href="#"><i className="fa fa-file-pdf-o fa-lg" /> &nbsp;Download as PDF</a>
-                    <a className="dropdown-item" href="#"><i className="fa fa-file-word-o fa-lg" /> &nbsp;Download as Word doc</a>
-                    <a className="dropdown-item" href="#"><i className="fa fa-file-code-o fa-lg" /> &nbsp;Download as JSON file</a>
-                    <a className="dropdown-item" href="#"><i className="fa fa-file-powerpoint-o fa-lg" /> &nbsp;Or view the slideshow on site</a>
-                    <a className="dropdown-item" href="#"><i className="fa fa-file-video-o fa-lg" /> &nbsp;Or watch a short movie I made.</a>
+                    <a className="dropdown-item" href="#"><i className="fa fa-file-pdf-o fa-lg" />&nbsp; Download as PDF</a>
+                    <a className="dropdown-item" href="#"><i className="fa fa-file-word-o fa-lg" />&nbsp; Download as Word doc</a>
+                    <a className="dropdown-item" href="#"><i className="fa fa-file-code-o fa-lg" />&nbsp; Download as JSON file</a>
+                    <a className="dropdown-item" href="#"><i className="fa fa-file-powerpoint-o fa-lg" />&nbsp; View the slideshow on site</a>
+                    <a className="dropdown-item" href="#"><i className="fa fa-file-video-o fa-lg" />&nbsp; Watch a short video about me</a>
                   </div>
                 </li>
               </ul>

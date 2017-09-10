@@ -3,5 +3,7 @@
   background-image: url("/images/me_thug.png");
   background-repeat: no-repeat;
   background-position: right bottom;
-  background-size: contain, 50%;
+  background-size: contain;
   background-clip: padding-box; }
+  .Jumbo .jumbotron .display-3 {
+    text-shadow: 4px 3px 0 #eceeef, 9px 8px 0 rgba(0, 0, 0, 0.15); }

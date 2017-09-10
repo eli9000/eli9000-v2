@@ -4,22 +4,25 @@ class Content extends Component {
   render() {
     return (
       <div className="Content">
-        <div className="container-fluid">
-          <div class="row justify-content-md-center">
-            <div class="col col-lg-2">
-              1 of 3</div>
-            <div class="col-12 col-md-auto">
-              Variable width content</div>
-            <div class="col col-lg-2">
-              3 of 3</div>
-          </div>
-          <div class="row">
-            <div class="col">
-              1 of 3</div>
-            <div class="col-12 col-md-auto">
-              Variable width content</div>
-            <div class="col col-lg-2">
-              3 of 3
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-4">
+              <img className="rounded-circle" src="ish" alt="pic" width="140" height="140" />
+              <h2>Heading</h2>
+              <p>Mollit dolor ipsum ipsum aliquip dolore ea irure commodo minim incididunt qui. Do ipsum aliquip deserunt velit reprehenderit Lorem nulla anim Lorem consectetur. Occaecat in cupidatat sunt est. Labore adipisicing enim esse in veniam consectetur velit cillum et eiusmod cupidatat sit velit adipisicing. Quis laboris est cillum excepteur.</p>
+              <p><a className="btn btn-secondary" href="ish" role="button">View Details</a></p>
+            </div>
+            <div className="col-lg-4">
+              <img className="rounded-circle" src="ish" alt="pic" width="140" height="140" />
+              <h2>Heading</h2>
+              <p>Mollit dolor ipsum ipsum aliquip dolore ea irure commodo minim incididunt qui. Do ipsum aliquip deserunt velit reprehenderit Lorem nulla anim Lorem consectetur. Occaecat in cupidatat sunt est. Labore adipisicing enim esse in veniam consectetur velit cillum et eiusmod cupidatat sit velit adipisicing. Quis laboris est cillum excepteur.</p>
+              <p><a className="btn btn-secondary" href="ish" role="button">View Details</a></p>
+            </div>
+            <div className="col-lg-4">
+              <img className="rounded-circle" src="ish" alt="pic" width="140" height="140" />
+              <h2>Heading</h2>
+              <p>Mollit dolor ipsum ipsum aliquip dolore ea irure commodo minim incididunt qui. Do ipsum aliquip deserunt velit reprehenderit Lorem nulla anim Lorem consectetur. Occaecat in cupidatat sunt est. Labore adipisicing enim esse in veniam consectetur velit cillum et eiusmod cupidatat sit velit adipisicing. Quis laboris est cillum excepteur.</p>
+              <p><a className="btn btn-secondary" href="ish" role="button">View Details</a></p>
             </div>
           </div>
         </div>

@@ -2,7 +2,8 @@
 
   .container {
     background-color: rgba(72, 73, 74 , 1) !important;
-    box-shadow: 6px 6px 6px #4DF88A;
+    // box-shadow: 6px 6px 6px #4DF88A;
+    box-shadow: 6px 6px 6px gray;
     z-index: 999;
 
     .bg-inverse {
@@ -16,8 +17,8 @@
     .nav-item {
       .nav-link {
         color: rgba(69, 152, 237, 0.84);
-        border-left: 2px solid rgba(69, 152, 237, 0.84);
-        text-shadow: 3px 3px black;
+        // border-left: 2px solid rgba(69, 152, 237, 0.84);
+        text-shadow: 1px 1px black;
       }
       .nav-link:hover {
         color: white;
@@ -47,6 +48,7 @@
         }
         .nav-link:hover {
           color: white;
+          text-shadow: none;
         }
       }
     }

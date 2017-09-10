@@ -1,13 +1,12 @@
 .Header .container {
   background-color: #48494a !important;
-  box-shadow: 6px 6px 6px #4DF88A;
+  box-shadow: 6px 6px 6px gray;
   z-index: 999; }
   .Header .container .bg-inverse {
     background-color: #48494a !important; }
   .Header .container .nav-item .nav-link {
     color: rgba(69, 152, 237, 0.84);
-    border-left: 2px solid rgba(69, 152, 237, 0.84);
-    text-shadow: 3px 3px black; }
+    text-shadow: 1px 1px black; }
   .Header .container .nav-item .nav-link:hover {
     color: white; }
   .Header .container .nav-item .dropdown-menu {
@@ -24,12 +23,15 @@
       text-shadow: 3px 3px black;
       border-left: 0; }
     .Header .container .ul-icons .nav-item .nav-link:hover {
-      color: white; }
+      color: white;
+      text-shadow: none; }
 
 .Jumbo .jumbotron {
   background-color: #eceeef;
   background-image: url("/images/me_thug.png");
   background-repeat: no-repeat;
   background-position: right bottom;
-  background-size: contain, 50%;
+  background-size: contain;
   background-clip: padding-box; }
+  .Jumbo .jumbotron .display-3 {
+    text-shadow: 4px 3px 0 #eceeef, 9px 8px 0 rgba(0, 0, 0, 0.15); }
