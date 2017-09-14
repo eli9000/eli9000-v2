@@ -4,7 +4,7 @@ class Header extends Component {
   render() {
     return (
       <div className="Header">
-        <div className="container">
+        <div className="container fixed-top">
           <nav className="navbar navbar-toggleable-md navbar-inverse bg-inverse">
             <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
@@ -13,13 +13,10 @@ class Header extends Component {
             <div className="collapse navbar-collapse" id="navbarNavDropdown">
               <ul className="navbar-nav">
                 <li className="nav-item">
-                  <a className="nav-link" href="#">About Me</a>
+                  <a className="nav-link" href="/projects">Projects</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">Projects</a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="#">Contact</a>
+                  <a className="nav-link" href="/contacts">Contact</a>
                 </li>
                 <li className="nav-item dropdown">
                   <a className="nav-link dropdown-toggle" href="http://eli9000.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -28,8 +25,8 @@ class Header extends Component {
                     <a className="dropdown-item" href="#"><i className="fa fa-file-pdf-o fa-lg" />&nbsp; Download as PDF</a>
                     <a className="dropdown-item" href="#"><i className="fa fa-file-word-o fa-lg" />&nbsp; Download as Word doc</a>
                     <a className="dropdown-item" href="#"><i className="fa fa-file-code-o fa-lg" />&nbsp; Download as JSON file</a>
-                    <a className="dropdown-item" href="#"><i className="fa fa-file-powerpoint-o fa-lg" />&nbsp; View the slideshow on site</a>
-                    <a className="dropdown-item" href="#"><i className="fa fa-file-video-o fa-lg" />&nbsp; Watch a short video about me</a>
+                    <a className="dropdown-item" href="#"><i className="fa fa-file-powerpoint-o fa-lg" />&nbsp; View a slideshow</a>
+                    <a className="dropdown-item" href="#"><i className="fa fa-file-video-o fa-lg" />&nbsp; Watch a short video</a>
                   </div>
                 </li>
               </ul>

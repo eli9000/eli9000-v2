@@ -10,7 +10,8 @@
   .Header .container .nav-item .nav-link:hover {
     color: white; }
   .Header .container .nav-item .dropdown-menu {
-    background-color: white; }
+    background-color: white;
+    width: 260px; }
     .Header .container .nav-item .dropdown-menu .dropdown-item:hover {
       border-left: 7px solid rgba(69, 152, 237, 0.84);
       background: rgba(221, 221, 221, 0.83); }

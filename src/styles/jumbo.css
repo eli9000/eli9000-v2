@@ -4,6 +4,8 @@
   background-repeat: no-repeat;
   background-position: right bottom;
   background-size: contain;
-  background-clip: padding-box; }
+  background-clip: padding-box;
+  margin-top: 56px; }
   .Jumbo .jumbotron .display-3 {
+    font-weight: bolder;
     text-shadow: 4px 3px 0 #eceeef, 9px 8px 0 rgba(0, 0, 0, 0.15); }
