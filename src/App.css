@@ -39,9 +39,11 @@
     font-weight: bolder;
     text-shadow: 4px 3px 0 #eceeef, 9px 8px 0 rgba(0, 0, 0, 0.15); }
 
-.Content .container .row .col-lg-4 {
+.Info .container .row .col-lg-4 {
   text-align: center;
   margin-top: 2rem; }
+  .Info .container .row .col-lg-4 .fa-circle {
+    color: gray; }
 
-.Content .container .content-divider {
+.Info .container .content-divider {
   margin: 5rem 0; }

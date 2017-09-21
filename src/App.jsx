@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import Header from './components/Header.jsx';
 import Jumbo from './components/Jumbo.jsx';
-import Content from './components/Content.jsx';
+import Info from './components/Info.jsx';
 
 
 import './App.css';
@@ -13,7 +13,7 @@ class App extends Component {
       <div className="App">
         <Header />
         <Jumbo />
-        <Content />
+        <Info />
       </div>
     );
   }

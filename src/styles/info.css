@@ -1,0 +1,8 @@
+.Info .container .row .col-lg-4 {
+  text-align: center;
+  margin-top: 2rem; }
+  .Info .container .row .col-lg-4 .fa-circle {
+    color: gray; }
+
+.Info .container .content-divider {
+  margin: 5rem 0; }
