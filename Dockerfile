@@ -1,12 +1,12 @@
-FROM node:6.10.2
+FROM node:6
 
-WORKDIR /src/
+WORKDIR /app
 
-COPY package.json package-lock.json
+COPY package.json /app
 
 RUN npm install
 
-COPY . .
+COPY . /app
 
 EXPOSE 8080
 
