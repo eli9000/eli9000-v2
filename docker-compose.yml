@@ -1,0 +1,11 @@
+version: "3.3"
+services:
+  node:
+    container_name: eli9000-v2
+    environment:
+      - NODE_ENV=production
+    image: eli9000/eli9000-v2:latest
+    build: .
+    ports:
+      - "3000:9000"
+      

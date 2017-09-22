@@ -1,13 +1,30 @@
-FROM node:6
+FROM node:latest
 
-WORKDIR /app
+LABEL name="eli9000-v2"
+LABEL version="2.0.0"
+LABEL maintainer="Eli Johnson <eli9000@gmail.com>"
 
-COPY package.json /app
+# Create app directory
+# RUN mkdir -p /usr/src/app
+WORKDIR /usr/src/app
+
+ARG NODE_ENV=production
+
+ENV NPM_CONFIG_LOGLEVEL warn
+
+COPY package.json package-lock.json ./
 
 RUN npm install
 
-COPY . /app
+RUN npm build
 
-EXPOSE 8080
+# COPY ./build ./server ./
+COPY . .
 
-CMD ["npm", "start"]
+# ADD build ./
+# ADD server ./
+
+EXPOSE 9000
+
+CMD [ "node", "server/index.js" ]
+
