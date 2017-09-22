@@ -1,13 +1,13 @@
-FROM node:6
+FROM node:latest
 
-WORKDIR /app
+# Create app directory
+RUN mkdir -p /usr/src/app
+WORKDIR /usr/src/app
 
-COPY package.json /app
+COPY package.json ./
 
 RUN npm install
 
-COPY . /app
+EXPOSE 3000
 
-EXPOSE 8080
-
-CMD ["npm", "start"]
+CMD [ "node", "build" ]

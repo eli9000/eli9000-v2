@@ -10,10 +10,13 @@
   "scripts": {
     "start": "npm-run-all -p start:server start:client watch:css",
     "start:client": "react-scripts start",
+    "start:docker": "docker-compose up",
     "start:server": "nodemon server --watch server --exec babel-node",
     "build": "npm run build:css && react-scripts build",
     "build:css": "node-sass-chokidar src -o src",
-    "watch:css": "npm run build:css && node-sass-chokidar src -o src --watch --recursive"
+    "build:docker": "docker build -t eli9000/eli9000-v2:latest .",
+    "watch:css": "npm run build:css && node-sass-chokidar src -o src --watch --recursive",
+    "eject": "react-scripts eject"
   },
   "devDependencies": {
     "node-sass-chokidar": "0.0.3",
