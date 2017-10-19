@@ -7,5 +7,5 @@ services:
     image: eli9000/eli9000-v2:latest
     build: .
     ports:
-      - "3000:9000"
+      - "80:9000"
       

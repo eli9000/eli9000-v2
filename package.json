@@ -3,23 +3,32 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "axios": "^0.16.2",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "https": "^1.0.0",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
-    "react-scripts": "1.0.13"
+    "react-scripts": "1.0.13",
+    "request": "^2.83.0"
   },
   "scripts": {
     "start": "npm-run-all -p start:server start:client watch:css",
     "start:client": "react-scripts start",
     "start:docker": "docker-compose up",
-    "start:server": "nodemon server --watch server --exec babel-node",
+    "start:server": "source env.sh && nodemon server --watch server --exec babel-node",
     "build": "npm run build:css && react-scripts build",
     "build:css": "node-sass-chokidar src -o src",
-    "build:docker": "docker build -t eli9000/eli9000-v2:latest .",
+    "build:docker": "docker build -t eli9000/eli9000-v2:production .",
     "watch:css": "npm run build:css && node-sass-chokidar src -o src --watch --recursive"
   },
   "devDependencies": {
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
     "node-sass-chokidar": "0.0.3",
     "nodemon": "^1.12.0",
     "npm-run-all": "^4.1.1"
-  }
+  },
+  "proxy": "http://localhost:3030/"
 }
