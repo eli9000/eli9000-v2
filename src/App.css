@@ -28,22 +28,29 @@
       text-shadow: none; }
 
 .Jumbo .jumbotron {
-  background-color: #eceeef;
+  background-color: #fff;
   background-image: url("/images/me_thug.png");
   background-repeat: no-repeat;
   background-position: right bottom;
   background-size: contain;
   background-clip: padding-box;
-  margin-top: 56px; }
+  margin-bottom: 0; }
   .Jumbo .jumbotron .display-3 {
+    color: #3d3d3d;
     font-weight: bolder;
-    text-shadow: 4px 3px 0 #eceeef, 9px 8px 0 rgba(0, 0, 0, 0.15); }
+    text-shadow: 4px 3px 0 #c5c6c6; }
 
-.Info .container .row .col-lg-4 {
-  text-align: center;
-  margin-top: 2rem; }
-  .Info .container .row .col-lg-4 .fa-circle {
-    color: gray; }
+.Info {
+  color: #3d3d3d;
+  background-color: #f1f5d4; }
+  .Info .container .row .col-lg-4 {
+    text-align: center;
+    margin-top: 2rem; }
+    .Info .container .row .col-lg-4 .fa-circle {
+      color: gray; }
+  .Info .container .content-divider {
+    margin: 5rem 0; }
 
-.Info .container .content-divider {
-  margin: 5rem 0; }
+.Footer {
+  padding-top: 5rem;
+  border-top: 1px solid black; }

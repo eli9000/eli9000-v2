@@ -14,7 +14,7 @@ const ListItem = ({ name, desc, butn, href, fa }) => (
 );
 
 
-class Info extends Component {
+export default class Info extends Component {
     constructor(props) {
     super(props);
 
@@ -44,6 +44,8 @@ class Info extends Component {
     const { data } = this.state;
     return (
       <div className="Info">
+        <br />
+        <h1 style={{ textAlign: 'center'}}>Other Skills:</h1>
         <div className="container">
             <div className="row">
           {data && !!data.length && data.map((row) => (
@@ -56,5 +58,3 @@ class Info extends Component {
     );
   }
 }
-
-export default Info;

@@ -7,7 +7,7 @@ const ListSocial = ({ href, fa }) => (
   </li>
 );
 
-class Header extends Component {
+export default class Header extends Component {
   constructor(props) {
     super(props);
 
@@ -38,7 +38,7 @@ class Header extends Component {
     const { data } = this.state;
     return (
       <div className="Header">
-        <div className="container fixed-top">
+        <div className="container">
           <nav className="navbar navbar-toggleable-md navbar-inverse bg-inverse">
             <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
@@ -58,7 +58,6 @@ class Header extends Component {
                   <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                     <a className="dropdown-item" href="/resumes/resume.pdf" download><i className="fa fa-file-pdf-o fa-lg" />&nbsp; Download as PDF</a>
                     <a className="dropdown-item" href="/resumes/resume.pdf"><i className="fa fa-file-word-o fa-lg" />&nbsp; Download as Word doc</a>
-                    <a className="dropdown-item" href="/resumes/resume.pdf"><i className="fa fa-file-code-o fa-lg" />&nbsp; Download as JSON file</a>
                     <a className="dropdown-item" href="/slideshow"><i className="fa fa-file-powerpoint-o fa-lg" />&nbsp; View a slideshow</a>
                     <a className="dropdown-item" href="/video"><i className="fa fa-file-video-o fa-lg" />&nbsp; Watch a short video</a>
                   </div>
@@ -76,5 +75,3 @@ class Header extends Component {
     );
   }
 }
-
-export default Header;

@@ -1,18 +1,19 @@
 .Jumbo {
-
+  
   .jumbotron {
-    background-color: #eceeef;
+    background-color: #fff;
     background-image: url("/images/me_thug.png");
     background-repeat: no-repeat;
     background-position: right bottom;
     background-size: contain;
     background-clip: padding-box;
-    margin-top: 56px;
+    margin-bottom: 0;
 
     .display-3 {
+      color: $primary;
       font-weight: bolder;
-      text-shadow: 4px 3px 0 #eceeef, 
-        9px 8px 0 rgba(0,0,0,0.15);
+      text-shadow: 4px 3px 0 #c5c6c6
     }
+
   }
 }

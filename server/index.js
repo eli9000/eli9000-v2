@@ -1,27 +1,23 @@
 
 import * as routes from './routes';
 
-const express = require('express');
-const path = require('path');
-const cors = require('cors');
-const bodyParser = require('body-parser');
+import express from 'express';
+import path from 'path';
+import cors from 'cors';
+import bodyParser from 'body-parser';
+import { red } from 'chalk';
 
 const app = express();
 
 const {
   NODE_ENV,
-  // MLAB_API,
-  // MLAB_BASE_URL,
-  // DATABASE,
-  // DB_USER,
-  // DB_PW
+  API_PORT = 3030,
+  PORT = 3000,
 } = process.env
 
-console.log('SERVER RUNNING!');
+app.use('*', cors({ origin: `http://localhost:${PORT}` }));
 
-app.use('*', cors({ origin: 'http://localhost:3000' }));
-
-app.use(bodyParser.urlencoded());
+app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 if (NODE_ENV === 'production') {
@@ -32,10 +28,10 @@ if (NODE_ENV === 'production') {
   });
 }
 
-// console.log(typeof routes.query);
-
 app.get('/info', routes.info);
 app.get('/social', routes.social);
 
-app.listen(3030);
+app.listen(API_PORT, () => {
+  console.log(red(`API is running on Port: ${API_PORT}`));
+});
 

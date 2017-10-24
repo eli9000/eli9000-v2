@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
 
-class Jumbo extends Component {
+export default class Jumbo extends Component {
   render() {
     return (
       <div className="Jumbo">
         <div className="container">
           <div className="jumbotron">
-            <h1 className="display-3">Oh, hai.</h1>
-            <p className="lead">Not sure exactly the fucking point of this page... fml.</p>
+            <h1 className="display-3">I cans code 4 u</h1>
+            <p className="lead">Skills have I, many. Like you will, yes yes.</p>
             <hr className="my-4" />
-            <p>Some more bullshit to fill this fucking jumbo div that I copy pasted. Ah... bitch.</p>
+            <p>React, SCSS, Node.js, API's, JSON, MongoDB, PostgreSQL, Docker, AWS, Digital Ocean, Github, Sketch and more!</p>
             <p className="lead">
-              <a className="btn btn-primary btn-lg" href="/fuckme" role="button">Learn more</a>
+              <a className="btn btn-primary btn-lg" href="/fuckme" role="button">Coding skills >></a>
             </p>
           </div>
         </div>
@@ -19,5 +19,3 @@ class Jumbo extends Component {
     );
   }
 }
-
-export default Jumbo;
