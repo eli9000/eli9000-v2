@@ -1,11 +1,11 @@
 .Info {
-  background-color: #f1f5d4; }
-  .Info .container {
-    color: blue; }
-    .Info .container .row .col-lg-4 {
-      text-align: center;
-      margin-top: 2rem; }
-      .Info .container .row .col-lg-4 .fa-circle {
-        color: gray; }
-    .Info .container .content-divider {
-      margin: 5rem 0; }
+  color: #3d3d3d; }
+  .Info .display-3 {
+    color: #3d3d3d;
+    text-decoration: underline; }
+  .Info .container .row .col-lg-4 {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem; }
+    .Info .container .row .col-lg-4 .fa-circle {
+      color: gray; }

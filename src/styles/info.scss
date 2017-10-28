@@ -1,6 +1,16 @@
+@import './_variables.scss';
+
 .Info {
   color: $primary;
-  background-color: rgb(241, 245, 212);
+  // background-color: rgba(47, 145, 165, 0.363);
+
+  .display-3 {
+      color: $primary;
+      text-decoration: underline;
+      // font-weight: bolder;
+      // text-shadow: 4px 3px 0 #a0a0a0
+    }
+
   .container {
     
     
@@ -10,15 +20,12 @@
       .col-lg-4 {
         text-align: center;
         margin-top: 2rem;
+        margin-bottom: 2rem;
 
         .fa-circle {
           color: gray;
         }
       }
-    }
-
-    .content-divider {
-      margin: 5rem 0;
     }
   }
 }

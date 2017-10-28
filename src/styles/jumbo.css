@@ -1,5 +1,5 @@
 .Jumbo .jumbotron {
-  background-color: #fff;
+  background-color: #dadada;
   background-image: url("/images/me_thug.png");
   background-repeat: no-repeat;
   background-position: right bottom;
@@ -7,6 +7,6 @@
   background-clip: padding-box;
   margin-bottom: 0; }
   .Jumbo .jumbotron .display-3 {
-    color: darkslategray;
+    color: #3d3d3d;
     font-weight: bolder;
-    text-shadow: 4px 3px 0 #c5c6c6; }
+    text-shadow: 4px 3px 0 #a0a0a0; }

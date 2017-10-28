@@ -28,8 +28,8 @@ if (NODE_ENV === 'production') {
   });
 }
 
-app.get('/info', routes.info);
-app.get('/social', routes.social);
+// app.get('/info', routes.info);
+// app.get('/social', routes.social);
 
 app.listen(API_PORT, () => {
   console.log(red(`API is running on Port: ${API_PORT}`));

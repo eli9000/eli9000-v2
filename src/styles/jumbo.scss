@@ -1,7 +1,9 @@
+@import './_variables.scss';
+
 .Jumbo {
   
   .jumbotron {
-    background-color: #fff;
+    background-color: rgb(218, 218, 218);
     background-image: url("/images/me_thug.png");
     background-repeat: no-repeat;
     background-position: right bottom;
@@ -12,7 +14,7 @@
     .display-3 {
       color: $primary;
       font-weight: bolder;
-      text-shadow: 4px 3px 0 #c5c6c6
+      text-shadow: 4px 3px 0 #a0a0a0
     }
 
   }
